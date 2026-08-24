@@ -1,0 +1,14 @@
+# Catalog listing for Slate's Extensions gallery. Every key is optional — without this file the
+# package still lists, using its name, version, repo and module docstring.
+
+tagline = "A CesiumJS 3D globe with live satellites, as a notebook output"
+icon    = "🛰"
+categories = ["visualization", "geospatial"]
+
+# The demo notebook. The gallery links to it, and docs/generate_extension_assets.mjs in the
+# KaimonSlate repo runs it headless to photograph the page.
+example = "notebooks/satellites.jl"
+
+# Hosted on this repo's `media` release rather than committed — screenshots are regenerated
+# whenever the demo notebook changes, and the catalog mirrors the URL into its own artifact.
+screenshots = ["https://github.com/kahliburke/CesiumSlate.jl/releases/download/media/CesiumSlate-notebook.png"]
