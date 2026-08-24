@@ -1,6 +1,6 @@
 name = "CesiumSlate"
 uuid = "037ed0f0-9d4a-4e15-a26b-b7623adf1440"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kahli Burke <kahli@kahliburke.com>"]
 
 [deps]
